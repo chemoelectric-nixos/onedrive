@@ -46,6 +46,8 @@
           "sha256-IllPh4YJvoAAyXDmSNwWDHN/EUtUuUqS7TOnBpr3Yts="
         else if version == "2.5.9" then
           "sha256-Vrr7KR4yMH+IZ56IUTp9eAhxEtiXx+ppleUd7jSLzxc="
+        else if version == "2.5.11" then
+          "sha256-SUliVuQxnSk8rWOny0VAVOnQS2PQedyzN75QQLL8ELQ="
         else
           "";
     in

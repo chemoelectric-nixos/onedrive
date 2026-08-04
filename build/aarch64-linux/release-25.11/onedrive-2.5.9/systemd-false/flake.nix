@@ -36,7 +36,7 @@
       withSystemd = false;
       owner = "abraunegg";
       pname = "onedrive";
-      version = "2.5.11";
+      version = "2.5.9";
 
       hash-for =
         version:

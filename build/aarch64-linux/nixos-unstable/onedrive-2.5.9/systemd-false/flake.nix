@@ -24,7 +24,7 @@
   description = "A Nix flake for abraunegg/onedrive";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/release-25.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
 
   outputs =
@@ -36,7 +36,7 @@
       withSystemd = false;
       owner = "abraunegg";
       pname = "onedrive";
-      version = "2.5.11";
+      version = "2.5.9";
 
       hash-for =
         version:

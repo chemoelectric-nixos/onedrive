@@ -30,13 +30,13 @@
   outputs =
     { self, nixpkgs, ... }:
     let
-      pkgs = nixpkgs.legacyPackages."aarch64-linux";
+      pkgs = nixpkgs.legacyPackages."x86_64-darwin";
       lib = nixpkgs.lib;
 
-      withSystemd = false;
+      withSystemd = true;
       owner = "abraunegg";
       pname = "onedrive";
-      version = "2.5.11";
+      version = "2.5.9";
 
       hash-for =
         version:
@@ -52,7 +52,7 @@
           "";
     in
     {
-      packages.aarch64-linux = rec {
+      packages.x86_64-darwin = rec {
 
         default = onedrive;
 
