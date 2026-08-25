@@ -12,9 +12,9 @@ directly from the GitHub repository. For example,
 [source,nix]
 ----
 onedrive = {
-  url = "github:chemoelectric-nixos/onedrive-flake/v1.1.7?dir=build%2Fx86_64-linux%2Frelease-25.11%2Fonedrive-2.5.11%2Fsystemd-true";
+  url = "github:chemoelectric-nixos/onedrive-flake/v1.1.7?dir=build%2Fx86_64-linux%2Frelease-26.05%2Fonedrive-2.5.11%2Fsystemd-true";
 };
 ----
 
-is a setting for an AMD64 GNU/Linux system with NixOS 25.11, using
+is a setting for an AMD64 GNU/Linux system with NixOS 26.05, using
 systemd to control onedrive.

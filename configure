@@ -1283,7 +1283,8 @@ if test -n "$ac_init_help"; then
 Some influential environment variables:
   SYSTEM      such as "x86_64-linux aarch64-linux" (space separated)
   NIXPKGS_VERSION
-              such as "release-25.11 nixos-unstable" (space separated)
+              such as "release-26.05 release-25.11 nixos-unstable" (space
+              separated)
   ONEDRIVE_VERSION
               abraunegg/onedrive versions (space separated)
   WITH_SYSTEMD
@@ -2011,7 +2012,7 @@ done
 
 
 onedrive_versions='2.5.9 2.5.11'
-nixpkgs_versions='release-25.11 nixos-unstable'
+nixpkgs_versions='release-26.05 release-25.11 nixos-unstable'
 systems='x86_64-linux aarch64-linux x86_64-darwin aarch64-darwin'
 
 
