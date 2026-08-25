@@ -70,7 +70,7 @@
             pkgs.autoreconfHook
             pkgs.coreutils
             pkgs.installShellFiles
-            pkgs.dmd
+            pkgs.ldc
             pkgs.pkg-config
           ];
           buildInputs = [
